@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Google Login-->
+    <string name="login_google_serverId" translatable="false" />
+    <!-- Facebook Login -->
+    <string name="login_facebook_applicationId" translatable="false" />
+    <!--Line Login-->
+    <string name="login_line_channelId" translatable="false" />
+
+</resources>
