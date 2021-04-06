@@ -36,3 +36,13 @@ Step.2
             }
         })
 ```
+
+Step.3
+
+```
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        LoginManager.getInstance()
+            .onActivityResult(requestCode,resultCode,data)
+    }
+```
